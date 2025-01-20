@@ -29,8 +29,8 @@ class Produk {
 $produk = new Produk();
 
 // Mengatur nilai menggunakan setter
-$produk->setNama("Laptop Asus");
-$produk->setHarga(8000000);
+$produk->setNama("MSI Laptop");
+$produk->setHarga(10000000);
 
 // Menampilkan nilai menggunakan getter
 echo "Nama Produk: " . $produk->getNama() . "<br>";
